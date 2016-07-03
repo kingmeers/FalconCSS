@@ -7,6 +7,7 @@
     @include auto-height();
     float: left;
     outline: 1px solid red;
+    text-align: center;
 }
 
 @mixin grid_maker($cols, $suffix) {
