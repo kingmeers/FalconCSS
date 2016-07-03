@@ -7,6 +7,10 @@ Maybe this will be a complete failure, but it will be fun.
 
 ### List of things I plan to implement (so far):
 * Grid System
+    * xs
+    * md
+    * lg
+    * hidden
 * Buttons
     * Huge variety of colours
     * Customisable
