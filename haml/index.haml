@@ -1,0 +1,19 @@
+%html
+    %head
+        %link{:type=>"text/css", :href=>"stylesheets/css/main.css", :rel=>"stylesheet"}
+        %title
+            FalconCSS | Examples
+    %body
+        %h1 FalconCSS
+
+        %h2 Grid System
+        .grid
+            - $columns = 12
+            - (1..$columns).each do |n|
+                .fal-row
+                    - (1..($columns/n)).each do |m|
+                        %div{:class=>"fal-col-lg-#{n}"}
+                            %p fal-col-lg-#{n}
+                    - if($columns%n != 0)
+                        %div{:class=>"fal-col-lg-#{$columns%n}"}
+                            %p fal-col-lg-#{$columns%n}

@@ -1,0 +1,19 @@
+@mixin auto-height() {
+    display:block;
+    overflow:auto;
+}
+
+@mixin grid_fixer() {
+    @include auto-height();
+    float: left;
+    outline: 1px solid red;
+}
+
+@mixin grid_maker($cols, $suffix) {
+    @for $n from 1 through $cols {
+        .fal-col-#{$suffix}-#{$n} {
+            width: 100% / ($cols/$n);
+            @include grid_fixer();
+        }
+    }
+}

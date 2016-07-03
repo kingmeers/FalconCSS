@@ -1,0 +1,6 @@
+.fal-row {
+    @include auto-height();
+    padding: 5px;
+
+    @include grid_maker(12, lg);
+}
