@@ -5,6 +5,18 @@
 Always wanted to create a CSS Framework after seeing the things others lacked.
 Maybe this will be a complete failure, but it will be fun.
 
-### List of things I'd like to implement:
+### List of things I plan to implement (so far):
 * Grid System
-'' * Media queries
+* Buttons
+    * Huge variety of colours
+    * Customisable
+    * Various states
+* Better Typography
+    * Headings
+    * Inline text elements
+    * Alignment classes
+    * Transformation classes
+    * Lists
+    * Blockquote
+* Contextual Elements
+* Helper classes
