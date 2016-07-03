@@ -1,6 +1,8 @@
 %html
     %head
         %link{:type=>"text/css", :href=>"stylesheets/css/main.css", :rel=>"stylesheet"}
+        %meta{:name=>"viewport", :content=>"width=device-width, initial-scale=1"}
+
         %title
             FalconCSS | Examples
     %body
@@ -8,12 +10,22 @@
 
         %h2 Grid System
         .grid
+            .fal-row
+                %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12"}
+                    %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
+                %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12"}
+                    %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
+                %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12"}
+                    %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
+                %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12"}
+                    %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
+
             - $columns = 12
             - (1..$columns).each do |n|
                 .fal-row
                     - (1..($columns/n)).each do |m|
-                        %div{:class=>"fal-col-lg-#{n}"}
+                        %div{:class=>"fal-col-lg-#{n} fal-col-md-#{n} fal-col-xs-#{n}"}
                             %p fal-col-lg-#{n}
                     - if($columns%n != 0)
-                        %div{:class=>"fal-col-lg-#{$columns%n}"}
+                        %div{:class=>"fal-col-lg-#{$columns%n} fal-col-md-#{$columns%n} fal-col-xs-#{$columns%n}"}
                             %p fal-col-lg-#{$columns%n}

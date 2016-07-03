@@ -2,5 +2,17 @@
     @include auto-height();
     padding: 5px;
 
-    @include grid_maker(12, lg);
+    @media (min-width: $xs) {
+        @include grid_maker(12, xs);
+    }
+
+    @media (min-width: $md) {
+        @include grid_maker(12, md);
+    }
+
+    @media (min-width: $lg) {
+        @include grid_maker(12, lg);
+    }
+
+
 }
