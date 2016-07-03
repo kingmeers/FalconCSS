@@ -1,4 +1,4 @@
-.fal-row {
+.#{$prefix}-row {
     @include auto-height();
     padding: 5px;
 

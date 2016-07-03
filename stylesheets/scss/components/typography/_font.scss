@@ -1,0 +1,12 @@
+// Headings
+@for $n from 1 through 6 {
+    h#{$n} {
+        font-size: (40 - 3*$n) + px;
+        margin: 10px;
+    }
+}
+
+// Paragraph
+p {
+    margin: 10px;
+}

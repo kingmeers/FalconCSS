@@ -1,12 +1,14 @@
-body, html {
-
-}
-
 // Variables
 @import 'variables';
 
+// CSS Reset
+@import 'reset';
+
 // Mixins
+@import 'mixins/text-helper';
 @import 'mixins/gridmaker';
 
 // Components
+@import 'components/typography/font';
+@import 'components/helper';
 @import 'components/grid';

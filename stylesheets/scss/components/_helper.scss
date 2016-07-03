@@ -1,0 +1,22 @@
+// Text align
+$text-aligns: center, left, right;
+@include text-helper($prefix, $text-aligns, align);
+
+// Text decorations
+$text-decorations: underline, overline, line-through;
+@include text-helper($prefix, $text-decorations, decoration);
+
+// Text transforms
+$text-transforms: capitalize, uppercase, lowercase;
+@include text-helper($prefix, $text-transforms, transform);
+
+// Border and outline
+// --Every colour
+$borders: border, outline;
+@each $n in $borders {
+    .#{$prefix}-#{$n} {
+        #{$n}: 1px solid $black;
+    }
+}
+
+// --Box-shadow

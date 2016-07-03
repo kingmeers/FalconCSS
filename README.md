@@ -14,9 +14,9 @@ Maybe this will be a complete failure, but it will be fun.
 * Better Typography
     * Headings
     * Inline text elements
-    * Alignment classes
-    * Transformation classes
     * Lists
     * Blockquote
 * Contextual Elements
 * Helper classes
+    * Alignment classes
+    * Transformation classes

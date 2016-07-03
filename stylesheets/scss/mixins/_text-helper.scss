@@ -1,0 +1,7 @@
+@mixin text-helper($prefix, $array, $property) {
+    @each $nth in $array {
+        .#{$prefix}-text-#{$nth} {
+            text-#{$property}: #{$nth};
+        }
+    }
+}

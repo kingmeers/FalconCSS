@@ -6,13 +6,11 @@
 @mixin grid_fixer() {
     @include auto-height();
     float: left;
-    outline: 1px solid red;
-    text-align: center;
 }
 
 @mixin grid_maker($cols, $suffix) {
     @for $n from 1 through $cols {
-        .fal-col-#{$suffix}-#{$n} {
+        .#{$prefix}-col-#{$suffix}-#{$n} {
             width: 100% / ($cols/$n);
             @include grid_fixer();
         }
