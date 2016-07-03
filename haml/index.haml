@@ -11,14 +11,9 @@
         %h2 Grid System
         .grid
             .fal-row
-                %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12"}
-                    %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
-                %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12"}
-                    %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
-                %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12"}
-                    %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
-                %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12"}
-                    %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
+                - 4.times do
+                    %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12"}
+                        %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
 
             - $columns = 12
             - (1..$columns).each do |n|
