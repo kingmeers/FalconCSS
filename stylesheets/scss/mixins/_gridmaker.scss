@@ -15,4 +15,9 @@
             @include grid_fixer();
         }
     }
+    @each $suff in $suffix {
+        .#{$prefix}-col-#{$suffix}-hidden {
+            display: none;
+        }
+    }
 }

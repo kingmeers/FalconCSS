@@ -1,0 +1,7 @@
+// Border and outline
+$borders: border, outline;
+@each $n in $borders {
+    .#{$prefix}-#{$n} {
+        #{$n}: 1px solid $black;
+    }
+}

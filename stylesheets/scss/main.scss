@@ -4,11 +4,14 @@
 // CSS Reset
 @import 'reset';
 
+// Functions
+@import 'functions/str-replace';
+
 // Mixins
-@import 'mixins/text-helper';
+@import 'mixins/propertyToClass';
 @import 'mixins/gridmaker';
 
 // Components
 @import 'components/typography/font';
-@import 'components/helper';
+@import 'components/helper/helper';
 @import 'components/grid';

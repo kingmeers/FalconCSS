@@ -1,0 +1,7 @@
+@mixin propertyToClass($prefix, $array, $property) {
+    @each $nth in $array {
+        .#{$prefix}-#{$property}-#{str-replace($nth, ' ', '-')} {
+            #{$property}: #{$nth};
+        }
+    }
+}

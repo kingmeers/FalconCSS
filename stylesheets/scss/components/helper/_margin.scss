@@ -1,0 +1,21 @@
+// Margin
+$margins: 'top', 'right', 'bottom', 'left';
+$margin-sizes-ref: 'tiny', 'small', 'medium', 'large', 'xlarge', 'xxlarge';
+$margin-sizes: 5, 10, 15, 25, 30, 40, 50;
+
+$margin-dictionary: ('tiny': 5, 'small': 10, 'medium': 15,
+                    'large': 25, 'xlarge': 35, 'xxlarge': 50);
+
+@each $pos in $margins {
+    @each $ref, $size in $margin-dictionary {
+        .#{$prefix}-margin-#{$pos}-#{$ref} {
+            margin-#{$pos}: $size + px;
+        }
+    }
+}
+
+@each $ref, $size in $margin-dictionary {
+    .#{$prefix}-margin-#{$ref} {
+        margin: $size + px;
+    }
+}

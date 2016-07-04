@@ -21,11 +21,23 @@
 
 
         %h2 Grid System
+
+        %h3 Responsive
         .grid
             .fal-row{:class=>"fal-text-center"}
                 - 4.times do
                     %div{:class=>"fal-col-lg-3 fal-col-md-6 fal-col-xs-12 fal-outline"}
                         %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
+
+        %h3 Customisable
+        .fal-row{:class=>"fal-text-center fal-center"}
+            %div{:class=>"fal-col-lg-4 fal-col-md-4 fal-col-xs-hidden fal-outline"}
+                %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
+            %div{:class=>"fal-col-lg-4 fal-col-md-4 fal-col-xs-6 fal-outline"}
+                %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
+            %div{:class=>"fal-col-lg-4 fal-col-md-4 fal-col-xs-6 fal-outline"}
+                %p fal-col-lg-3 fal-col-md-6 fal-col-xs-12
+
 
             - $columns = 12
             - (1..$columns).each do |n|
@@ -36,3 +48,22 @@
                     - if($columns%n != 0)
                         %div{:class=>"fal-col-lg-#{$columns%n} fal-col-md-#{$columns%n} fal-col-xs-#{$columns%n} fal-outline"}
                             %p fal-col-lg-#{$columns%n} fal-col-md-#{$columns%n} fal-col-xs-#{$columns%n}
+
+        %h2 Lists n shit
+
+        %h6 This is a list!
+        %ul{:class=>"fal-ul"}
+            - (1..10).each do |i|
+                %li #{i}
+
+        %ol{:class=>"fal-ol"}
+            - (1..10).each do |i|
+                %li #{i}
+
+
+
+        %h2{:class=>"fal-border fal-padding-tiny"} Buttons and links
+
+        .fal-row
+            %a{:class=>"fal-btn-default"} Button
+            %button{:class=>"fal-btn-default"} Button

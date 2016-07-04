@@ -1,0 +1,9 @@
+@import 'text';
+@import 'background';
+@import 'border-outline';
+@import 'margin';
+@import 'padding';
+
+// Floating
+$float: 'none', 'left', 'right';
+@include propertyToClass($prefix, $float, float);

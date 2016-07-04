@@ -1,0 +1,11 @@
+// Text align
+$text-align: 'center', 'left', 'right';
+@include propertyToClass($prefix, $text-align, text-align);
+
+// Text decorations
+$text-decoration: 'underline', 'overline', 'line-through';
+@include propertyToClass($prefix, $text-decoration, text-decoration);
+
+// Text transforms
+$text-transform: 'capitalize', 'uppercase', 'lowercase';
+@include propertyToClass($prefix, $text-transform, text-transform);

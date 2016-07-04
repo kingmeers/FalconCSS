@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -73,38 +74,300 @@ h6 {
 p {
   margin: 10px; }
 
-.fal-text-center {
+ul, .fal-ul {
+  margin: 10px; }
+  ul li, .fal-ul li {
+    padding-left: 20px;
+    margin: 10px; }
+    ul li:before, .fal-ul li:before {
+      content: "•";
+      margin-right: 5px; }
+
+ol, .fal-ol {
+  margin-left: 40px;
+  list-style-type: decimal; }
+  ol li, .fal-ol li {
+    padding-left: 5px;
+    margin: 10px; }
+
+.fal-text-align-center {
   text-align: center; }
 
-.fal-text-left {
+.fal-text-align-left {
   text-align: left; }
 
-.fal-text-right {
+.fal-text-align-right {
   text-align: right; }
 
-.fal-text-underline {
+.fal-text-decoration-underline {
   text-decoration: underline; }
 
-.fal-text-overline {
+.fal-text-decoration-overline {
   text-decoration: overline; }
 
-.fal-text-line-through {
+.fal-text-decoration-line-through {
   text-decoration: line-through; }
 
-.fal-text-capitalize {
+.fal-text-transform-capitalize {
   text-transform: capitalize; }
 
-.fal-text-uppercase {
+.fal-text-transform-uppercase {
   text-transform: uppercase; }
 
-.fal-text-lowercase {
+.fal-text-transform-lowercase {
   text-transform: lowercase; }
+
+.fal-background-repeat-repeat {
+  background-repeat: repeat; }
+
+.fal-background-repeat-no-repeat {
+  background-repeat: no-repeat; }
+
+.fal-background-attachment-scroll {
+  background-attachment: scroll; }
+
+.fal-background-attachment-fixed {
+  background-attachment: fixed; }
+
+.fal-background-attachment-local {
+  background-attachment: local; }
+
+.fal-background-position-left {
+  background-position: left; }
+
+.fal-background-position-right {
+  background-position: right; }
+
+.fal-background-position-top {
+  background-position: top; }
+
+.fal-background-position-bottom {
+  background-position: bottom; }
+
+.fal-background-position-center {
+  background-position: center; }
+
+.fal-background-position-left-top {
+  background-position: left top; }
+
+.fal-background-position-left-center {
+  background-position: left center; }
+
+.fal-background-position-left-bottom {
+  background-position: left bottom; }
+
+.fal-background-position-right-top {
+  background-position: right top; }
+
+.fal-background-position-right-center {
+  background-position: right center; }
+
+.fal-background-position-right-bottom {
+  background-position: right bottom; }
+
+.fal-background-position-center-top {
+  background-position: center top; }
+
+.fal-background-position-center-center {
+  background-position: center center; }
+
+.fal-background-position-center-bottom {
+  background-position: center bottom; }
 
 .fal-border {
   border: 1px solid #000; }
 
 .fal-outline {
   outline: 1px solid #000; }
+
+.fal-margin-top-tiny {
+  margin-top: 5px; }
+
+.fal-margin-top-small {
+  margin-top: 10px; }
+
+.fal-margin-top-medium {
+  margin-top: 15px; }
+
+.fal-margin-top-large {
+  margin-top: 25px; }
+
+.fal-margin-top-xlarge {
+  margin-top: 35px; }
+
+.fal-margin-top-xxlarge {
+  margin-top: 50px; }
+
+.fal-margin-right-tiny {
+  margin-right: 5px; }
+
+.fal-margin-right-small {
+  margin-right: 10px; }
+
+.fal-margin-right-medium {
+  margin-right: 15px; }
+
+.fal-margin-right-large {
+  margin-right: 25px; }
+
+.fal-margin-right-xlarge {
+  margin-right: 35px; }
+
+.fal-margin-right-xxlarge {
+  margin-right: 50px; }
+
+.fal-margin-bottom-tiny {
+  margin-bottom: 5px; }
+
+.fal-margin-bottom-small {
+  margin-bottom: 10px; }
+
+.fal-margin-bottom-medium {
+  margin-bottom: 15px; }
+
+.fal-margin-bottom-large {
+  margin-bottom: 25px; }
+
+.fal-margin-bottom-xlarge {
+  margin-bottom: 35px; }
+
+.fal-margin-bottom-xxlarge {
+  margin-bottom: 50px; }
+
+.fal-margin-left-tiny {
+  margin-left: 5px; }
+
+.fal-margin-left-small {
+  margin-left: 10px; }
+
+.fal-margin-left-medium {
+  margin-left: 15px; }
+
+.fal-margin-left-large {
+  margin-left: 25px; }
+
+.fal-margin-left-xlarge {
+  margin-left: 35px; }
+
+.fal-margin-left-xxlarge {
+  margin-left: 50px; }
+
+.fal-margin-tiny {
+  margin: 5px; }
+
+.fal-margin-small {
+  margin: 10px; }
+
+.fal-margin-medium {
+  margin: 15px; }
+
+.fal-margin-large {
+  margin: 25px; }
+
+.fal-margin-xlarge {
+  margin: 35px; }
+
+.fal-margin-xxlarge {
+  margin: 50px; }
+
+.fal-padding-top-tiny {
+  padding-top: 5px; }
+
+.fal-padding-top-small {
+  padding-top: 10px; }
+
+.fal-padding-top-medium {
+  padding-top: 15px; }
+
+.fal-padding-top-large {
+  padding-top: 25px; }
+
+.fal-padding-top-xlarge {
+  padding-top: 35px; }
+
+.fal-padding-top-xxlarge {
+  padding-top: 50px; }
+
+.fal-padding-right-tiny {
+  padding-right: 5px; }
+
+.fal-padding-right-small {
+  padding-right: 10px; }
+
+.fal-padding-right-medium {
+  padding-right: 15px; }
+
+.fal-padding-right-large {
+  padding-right: 25px; }
+
+.fal-padding-right-xlarge {
+  padding-right: 35px; }
+
+.fal-padding-right-xxlarge {
+  padding-right: 50px; }
+
+.fal-padding-bottom-tiny {
+  padding-bottom: 5px; }
+
+.fal-padding-bottom-small {
+  padding-bottom: 10px; }
+
+.fal-padding-bottom-medium {
+  padding-bottom: 15px; }
+
+.fal-padding-bottom-large {
+  padding-bottom: 25px; }
+
+.fal-padding-bottom-xlarge {
+  padding-bottom: 35px; }
+
+.fal-padding-bottom-xxlarge {
+  padding-bottom: 50px; }
+
+.fal-padding-left-tiny {
+  padding-left: 5px; }
+
+.fal-padding-left-small {
+  padding-left: 10px; }
+
+.fal-padding-left-medium {
+  padding-left: 15px; }
+
+.fal-padding-left-large {
+  padding-left: 25px; }
+
+.fal-padding-left-xlarge {
+  padding-left: 35px; }
+
+.fal-padding-left-xxlarge {
+  padding-left: 50px; }
+
+.fal-padding-tiny {
+  padding: 5px; }
+
+.fal-padding-small {
+  padding: 10px; }
+
+.fal-padding-medium {
+  padding: 15px; }
+
+.fal-padding-large {
+  padding: 25px; }
+
+.fal-padding-xlarge {
+  padding: 35px; }
+
+.fal-padding-xxlarge {
+  padding: 50px; }
+
+.fal-float-none {
+  float: none; }
+
+.fal-float-left {
+  float: left; }
+
+.fal-float-right {
+  float: right; }
 
 .fal-row {
   display: block;
@@ -170,7 +433,9 @@ p {
       width: 100%;
       display: block;
       overflow: auto;
-      float: left; } }
+      float: left; }
+    .fal-row .fal-col-xs-hidden {
+      display: none; } }
   @media (min-width: 768px) {
     .fal-row .fal-col-md-1 {
       width: 8.33333%;
@@ -231,7 +496,9 @@ p {
       width: 100%;
       display: block;
       overflow: auto;
-      float: left; } }
+      float: left; }
+    .fal-row .fal-col-md-hidden {
+      display: none; } }
   @media (min-width: 1200px) {
     .fal-row .fal-col-lg-1 {
       width: 8.33333%;
@@ -292,6 +559,8 @@ p {
       width: 100%;
       display: block;
       overflow: auto;
-      float: left; } }
+      float: left; }
+    .fal-row .fal-col-lg-hidden {
+      display: none; } }
 
 /*# sourceMappingURL=main.css.map */

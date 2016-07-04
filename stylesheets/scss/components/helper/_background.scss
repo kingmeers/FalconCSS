@@ -1,0 +1,16 @@
+// Background Repeat
+$background-repeat: 'repeat', 'no-repeat';
+@include propertyToClass($prefix, $background-repeat, background-repeat);
+
+// Background attachment
+$background-attachment: 'scroll', 'fixed', 'local';
+@include propertyToClass($prefix, $background-attachment, background-attachment);
+
+// Background color ~~
+
+// Background position
+$background-position: 'left', 'right', 'top', 'bottom', 'center',
+                      'left top', 'left center', 'left bottom',
+                      'right top', 'right center', 'right bottom',
+                      'center top', 'center center', 'center bottom';
+@include propertyToClass($prefix, $background-position, background-position);
