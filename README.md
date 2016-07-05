@@ -26,10 +26,23 @@ Maybe this will be a complete failure, but it will be fun.
     * Alignment classes
     * Transformation classes
     * Box shadows
+    * Border radius
+    * Padding
+    * Margin
+    * Positioning
+        * Floats
+        * Top, left, bottom, right
+    * Types
+    * Box sizes
     * Classes for:
         * width and height
         * margin and padding
 * Semantic AF
     * Write class as if it were CSS
+* 44 Hand picked colors
+    * 11 color combos
+        * background-color
+        * color
 
-### Will start documentation soon (but till then please explore!)
+
+### Will start documentation soon (but till then please explore)

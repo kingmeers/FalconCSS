@@ -19,8 +19,8 @@
             %p Hi! I'm a paragraph!
 
         .fal-row
-            %div{:class=>"fal-full-width fal-height-50 fal-position-fixed fal-outline"}
-                %p{:class=>"fal-text-align-center"} IM FIXED BRO
+            %div{:class=>"fal-full-width fal-height-50 fal-position-relative fal-outline"}
+                %p{:class=>"fal-text-align-center"} IM relATIVE BRO
 
         %h2 Grid System
 
@@ -69,9 +69,11 @@
 
         %h2{:class=>"fal-border fal-padding-tiny"} Buttons and links
 
-        -# .fal-row
-        -#     %a{:class=>"fal-btn-default"} Button
-        -#     %button{:class=>"fal-btn-default"} Button
+        .fal-row
+            %a{:class=>"fal-btn-default"} Button
+            %button{:class=>"fal-btn-default"} Button
+
+        %div{:class=>"fal-divider"}
 
         - @colors = ['petal','poppy','stem','springGreen','mist','stone','shadow','autumnFoliage','sky','sunset','sunflower','grass','sandstone','burntOrange','sea','lagoon','hotPink','bubblegum','pollen','brandy','avocado','yellowPepper','aquaBlue','ripeTomato','sage','honey','bluebell','raspberry','electricBlue','banana','watermelon','cantelope','freshOrange','fuschia','lemonDrop','blueRaspberry','fresh','vermillion','sunshine','clean','papaya','mustard','blush','marine']
 
@@ -82,5 +84,4 @@
                 %div{:class=>"fal-col-xs-12"}
                     %div{:class=>"fal-full-width fal-height-50 fal-overflow-visible fal-radius-10 fal-float-left fal-background-color-#{color}"}
                     - if($checkNUM%4 == 0)
-                        - 10.times do
-                            %br
+                        %div{:class=>"fal-full-width fal-height-50 fal-margin-top-xxlarge fal-margin-bottom-xxlarge"}
