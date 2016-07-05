@@ -4,6 +4,7 @@
     @for $n from $start through $stop {
         .#{$prefix}-#{$property}-#{$pixels} {
             #{$property}: ($pixels) + px;
+            overflow: visible;
         }
         $pixels: $pixels + $increment;
     }

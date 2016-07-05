@@ -1,0 +1,9 @@
+// Creating color and background classes for every color.
+@each $property in (background-color, color) {
+    @each $colorRef, $colorHex in $colors {
+        .#{$prefix}-#{$property}-#{$colorRef} {
+            #{$property}: $colorHex;
+        }
+    }
+
+}

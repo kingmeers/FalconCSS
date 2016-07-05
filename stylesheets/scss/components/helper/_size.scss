@@ -5,4 +5,7 @@ $increment: 50;
 
 @each $property in (width, height) {
     @include sizeMaker($start, $numberOfClasses, $increment, $property);
+    .#{$prefix}-full-#{$property} {
+        #{$property}: 100%;
+    }
 }

@@ -1,0 +1,7 @@
+// Classes for overflow(-x/y)
+$overflow-types: overflow, overflow-x, overflow-y;
+$overflow: 'visible', 'hidden', 'scroll', 'auto';
+
+@each $flow in $overflow-types {
+    @include propertyToClass($prefix, $overflow, $flow);
+}

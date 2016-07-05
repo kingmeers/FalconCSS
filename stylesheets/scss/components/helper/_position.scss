@@ -1,0 +1,3 @@
+// Positioning
+$position: 'static', 'relative', 'fixed', 'absolute';
+@include propertyToClass($prefix, $position, position);

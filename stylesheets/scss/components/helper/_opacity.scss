@@ -1,0 +1,6 @@
+// Classes for opacity
+@for $n from 0 through 10 {
+    .#{$prefix}-opacity-#{$n} {
+        opacity: $n / 10;
+    }
+}

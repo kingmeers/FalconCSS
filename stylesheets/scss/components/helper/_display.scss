@@ -1,0 +1,7 @@
+// All the display classes
+$display: 'inline', 'block', 'flex', 'inline-block', 'inline-flex',
+          'inline-table', 'list-item', 'run-in', 'table', 'table-caption',
+          'table-column-group', 'table-header-group', 'table-footer-group',
+          'table-cell', 'table-column', 'table-row', 'none';
+
+@include propertyToClass($prefix, $display, display);

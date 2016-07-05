@@ -6,6 +6,7 @@
 
 // Functions
 @import 'functions/str-replace';
+@import 'functions/getColor';
 
 // Mixins
 @import 'mixins/propertyToClass';
@@ -13,6 +14,22 @@
 @import 'mixins/sizeMaker';
 
 // Components
-@import 'components/typography/font';
-@import 'components/helper/helper';
 @import 'components/grid';
+
+    // Typography (font, colors, etc.)
+    @import 'components/typography/font';
+    @import 'components/typography/colors';
+
+
+    // All the different types of helper classes
+    @import 'components/helper/text';
+    @import 'components/helper/background';
+    @import 'components/helper/border-outline';
+    @import 'components/helper/margin';
+    @import 'components/helper/padding';
+    @import 'components/helper/floating';
+    @import 'components/helper/size';
+    @import 'components/helper/position';
+    @import 'components/helper/overflow';
+    @import 'components/helper/display';
+    @import 'components/helper/opacity';

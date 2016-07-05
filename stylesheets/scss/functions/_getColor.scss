@@ -1,3 +1,4 @@
-@function getColor($colors, $color) {
+// function returning colors from map in variables file
+@function getColor($color) {
     @return map-get($colors, $color);
 }
