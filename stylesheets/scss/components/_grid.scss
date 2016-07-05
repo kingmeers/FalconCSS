@@ -1,13 +1,16 @@
+// Nice lil map
 $shorthandReference: (
     xs: $xs,
     md: $md,
     lg: $lg
 );
 
+// Get map thing
 @function getSize($sizes, $size) {
     @return map-get($sizes, $size);
 }
 
+// Make as many grids as I want
 @mixin makeAllGrids($cols, $sizes) {
     @each $size in $sizes {
         @media (min-width: getSize($shorthandReference, $size)) {
@@ -16,6 +19,7 @@ $shorthandReference: (
     }
 }
 
+// All the ones I want
 $sizes: xs, md, lg;
 
 .#{$prefix}-row {
