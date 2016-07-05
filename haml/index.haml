@@ -6,15 +6,15 @@
         %title
             FalconCSS | Examples
     %body
-        %h1{:class=>"fal-text-center fal-text-underline fal-text-center"} FalconCSS
+        %h1{:class=>"fal-text-align-center fal-text-decoration-underline fal-text-center"} FalconCSS
 
         %h2 Typography
         .fal-row
-            %h1{:class=>"fal-text-overline"} Heading 1
+            %h1{:class=>"fal-text-decoration-overline"} Heading 1
             %h2 Heading 2
-            %h3{:class=>"fal-text-right"} Heading 3
+            %h3{:class=>"fal-text-align-right"} Heading 3
             %h4 Heading 4
-            %h5{:class=>"fal-text-line-through"} Heading 5
+            %h5{:class=>"fal-text-decoration-line-through"} Heading 5
             %h6 Heading 6
 
             %p Hi! I'm a paragraph!
@@ -49,7 +49,12 @@
                         %div{:class=>"fal-col-lg-#{$columns%n} fal-col-md-#{$columns%n} fal-col-xs-#{$columns%n} fal-outline"}
                             %p fal-col-lg-#{$columns%n} fal-col-md-#{$columns%n} fal-col-xs-#{$columns%n}
 
-        %h2 Lists n shit
+
+        %div{:class=>"fal-width-400 fal-padding-small fal-height-50 fal-border fal-center"}
+            %p{:class=>"fal-text-align-center"} lmaooo no css just classes..!!! centERED
+
+
+        %h2{:class=>"fal-text-align-center"} Lists n shit
 
         %h6 This is a list!
         %ul{:class=>"fal-ul"}
@@ -59,8 +64,6 @@
         %ol{:class=>"fal-ol"}
             - (1..10).each do |i|
                 %li #{i}
-
-
 
         %h2{:class=>"fal-border fal-padding-tiny"} Buttons and links
 

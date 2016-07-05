@@ -1,0 +1,8 @@
+// Creating width and height classes
+$start: 0;
+$numberOfClasses: 20;
+$increment: 50;
+
+@each $property in (width, height) {
+    @include sizeMaker($start, $numberOfClasses, $increment, $property);
+}

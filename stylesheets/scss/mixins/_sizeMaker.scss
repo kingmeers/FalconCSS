@@ -1,0 +1,10 @@
+// Generating width and height classes
+@mixin sizeMaker($start, $stop, $increment, $property) {
+    $pixels: 0;
+    @for $n from $start through $stop {
+        .#{$prefix}-#{$property}-#{$pixels} {
+            #{$property}: ($pixels) + px;
+        }
+        $pixels: $pixels + $increment;
+    }
+}

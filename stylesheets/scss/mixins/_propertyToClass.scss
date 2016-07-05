@@ -1,3 +1,4 @@
+// Need a list of values to assign to a specific property
 @mixin propertyToClass($prefix, $array, $property) {
     @each $nth in $array {
         .#{$prefix}-#{$property}-#{str-replace($nth, ' ', '-')} {

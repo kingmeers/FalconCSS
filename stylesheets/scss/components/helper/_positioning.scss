@@ -1,0 +1,9 @@
+// Floating
+$float: 'none', 'left', 'right';
+@include propertyToClass($prefix, $float, float);
+
+// Centering
+.#{$prefix}-center {
+    margin: 0 auto;
+    float: none;
+}

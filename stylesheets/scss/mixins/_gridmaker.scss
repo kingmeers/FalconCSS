@@ -1,18 +1,22 @@
-@mixin auto-height() {
+@mixin autoHeight() {
     display:block;
     overflow:auto;
 }
 
-@mixin grid_fixer() {
-    @include auto-height();
+@mixin gridFixer() {
+    @include autoHeight();
     float: left;
 }
 
-@mixin grid_maker($cols, $suffix) {
+@mixin gridMaker($cols, $suffix) {
     @for $n from 1 through $cols {
         .#{$prefix}-col-#{$suffix}-#{$n} {
             width: 100% / ($cols/$n);
-            @include grid_fixer();
+            @include gridFixer();
+        }
+
+        .#{$prefix}-col-#{$suffix}-offset-#{$n} {
+            margin-left: 100% / ($cols/$n);
         }
     }
     @each $suff in $suffix {

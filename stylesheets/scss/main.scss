@@ -9,7 +9,8 @@
 
 // Mixins
 @import 'mixins/propertyToClass';
-@import 'mixins/gridmaker';
+@import 'mixins/gridMaker';
+@import 'mixins/sizeMaker';
 
 // Components
 @import 'components/typography/font';

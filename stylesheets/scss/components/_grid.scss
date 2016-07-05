@@ -1,16 +1,27 @@
+$shorthandReference: (
+    xs: $xs,
+    md: $md,
+    lg: $lg
+);
+
+@function getSize($sizes, $size) {
+    @return map-get($sizes, $size);
+}
+
+@mixin makeAllGrids($cols, $sizes) {
+    @each $size in $sizes {
+        @media (min-width: getSize($shorthandReference, $size)) {
+            @include gridMaker($cols, $size);
+        }
+    }
+}
+
+$sizes: xs, md, lg;
+
 .#{$prefix}-row {
-    @include auto-height();
+    @include autoHeight();
     padding: 5px;
 
-    @media (min-width: $xs) {
-        @include grid_maker(12, xs);
-    }
+    @include makeAllGrids(12, $sizes);
 
-    @media (min-width: $md) {
-        @include grid_maker(12, md);
-    }
-
-    @media (min-width: $lg) {
-        @include grid_maker(12, lg);
-    }
 }

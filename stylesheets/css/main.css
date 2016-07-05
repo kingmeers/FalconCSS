@@ -369,6 +369,136 @@ ol, .fal-ol {
 .fal-float-right {
   float: right; }
 
+.fal-center {
+  margin: 0 auto;
+  float: none; }
+
+.fal-width-0 {
+  width: 0px; }
+
+.fal-width-50 {
+  width: 50px; }
+
+.fal-width-100 {
+  width: 100px; }
+
+.fal-width-150 {
+  width: 150px; }
+
+.fal-width-200 {
+  width: 200px; }
+
+.fal-width-250 {
+  width: 250px; }
+
+.fal-width-300 {
+  width: 300px; }
+
+.fal-width-350 {
+  width: 350px; }
+
+.fal-width-400 {
+  width: 400px; }
+
+.fal-width-450 {
+  width: 450px; }
+
+.fal-width-500 {
+  width: 500px; }
+
+.fal-width-550 {
+  width: 550px; }
+
+.fal-width-600 {
+  width: 600px; }
+
+.fal-width-650 {
+  width: 650px; }
+
+.fal-width-700 {
+  width: 700px; }
+
+.fal-width-750 {
+  width: 750px; }
+
+.fal-width-800 {
+  width: 800px; }
+
+.fal-width-850 {
+  width: 850px; }
+
+.fal-width-900 {
+  width: 900px; }
+
+.fal-width-950 {
+  width: 950px; }
+
+.fal-width-1000 {
+  width: 1000px; }
+
+.fal-height-0 {
+  height: 0px; }
+
+.fal-height-50 {
+  height: 50px; }
+
+.fal-height-100 {
+  height: 100px; }
+
+.fal-height-150 {
+  height: 150px; }
+
+.fal-height-200 {
+  height: 200px; }
+
+.fal-height-250 {
+  height: 250px; }
+
+.fal-height-300 {
+  height: 300px; }
+
+.fal-height-350 {
+  height: 350px; }
+
+.fal-height-400 {
+  height: 400px; }
+
+.fal-height-450 {
+  height: 450px; }
+
+.fal-height-500 {
+  height: 500px; }
+
+.fal-height-550 {
+  height: 550px; }
+
+.fal-height-600 {
+  height: 600px; }
+
+.fal-height-650 {
+  height: 650px; }
+
+.fal-height-700 {
+  height: 700px; }
+
+.fal-height-750 {
+  height: 750px; }
+
+.fal-height-800 {
+  height: 800px; }
+
+.fal-height-850 {
+  height: 850px; }
+
+.fal-height-900 {
+  height: 900px; }
+
+.fal-height-950 {
+  height: 950px; }
+
+.fal-height-1000 {
+  height: 1000px; }
+
 .fal-row {
   display: block;
   overflow: auto;
@@ -379,61 +509,85 @@ ol, .fal-ol {
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-1 {
+      margin-left: 8.33333%; }
     .fal-row .fal-col-xs-2 {
       width: 16.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-2 {
+      margin-left: 16.66667%; }
     .fal-row .fal-col-xs-3 {
       width: 25%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-3 {
+      margin-left: 25%; }
     .fal-row .fal-col-xs-4 {
       width: 33.33333%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-4 {
+      margin-left: 33.33333%; }
     .fal-row .fal-col-xs-5 {
       width: 41.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-5 {
+      margin-left: 41.66667%; }
     .fal-row .fal-col-xs-6 {
       width: 50%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-6 {
+      margin-left: 50%; }
     .fal-row .fal-col-xs-7 {
       width: 58.33333%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-7 {
+      margin-left: 58.33333%; }
     .fal-row .fal-col-xs-8 {
       width: 66.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-8 {
+      margin-left: 66.66667%; }
     .fal-row .fal-col-xs-9 {
       width: 75%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-9 {
+      margin-left: 75%; }
     .fal-row .fal-col-xs-10 {
       width: 83.33333%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-10 {
+      margin-left: 83.33333%; }
     .fal-row .fal-col-xs-11 {
       width: 91.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-11 {
+      margin-left: 91.66667%; }
     .fal-row .fal-col-xs-12 {
       width: 100%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-xs-offset-12 {
+      margin-left: 100%; }
     .fal-row .fal-col-xs-hidden {
       display: none; } }
   @media (min-width: 768px) {
@@ -442,61 +596,85 @@ ol, .fal-ol {
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-1 {
+      margin-left: 8.33333%; }
     .fal-row .fal-col-md-2 {
       width: 16.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-2 {
+      margin-left: 16.66667%; }
     .fal-row .fal-col-md-3 {
       width: 25%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-3 {
+      margin-left: 25%; }
     .fal-row .fal-col-md-4 {
       width: 33.33333%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-4 {
+      margin-left: 33.33333%; }
     .fal-row .fal-col-md-5 {
       width: 41.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-5 {
+      margin-left: 41.66667%; }
     .fal-row .fal-col-md-6 {
       width: 50%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-6 {
+      margin-left: 50%; }
     .fal-row .fal-col-md-7 {
       width: 58.33333%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-7 {
+      margin-left: 58.33333%; }
     .fal-row .fal-col-md-8 {
       width: 66.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-8 {
+      margin-left: 66.66667%; }
     .fal-row .fal-col-md-9 {
       width: 75%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-9 {
+      margin-left: 75%; }
     .fal-row .fal-col-md-10 {
       width: 83.33333%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-10 {
+      margin-left: 83.33333%; }
     .fal-row .fal-col-md-11 {
       width: 91.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-11 {
+      margin-left: 91.66667%; }
     .fal-row .fal-col-md-12 {
       width: 100%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-md-offset-12 {
+      margin-left: 100%; }
     .fal-row .fal-col-md-hidden {
       display: none; } }
   @media (min-width: 1200px) {
@@ -505,61 +683,85 @@ ol, .fal-ol {
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-1 {
+      margin-left: 8.33333%; }
     .fal-row .fal-col-lg-2 {
       width: 16.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-2 {
+      margin-left: 16.66667%; }
     .fal-row .fal-col-lg-3 {
       width: 25%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-3 {
+      margin-left: 25%; }
     .fal-row .fal-col-lg-4 {
       width: 33.33333%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-4 {
+      margin-left: 33.33333%; }
     .fal-row .fal-col-lg-5 {
       width: 41.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-5 {
+      margin-left: 41.66667%; }
     .fal-row .fal-col-lg-6 {
       width: 50%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-6 {
+      margin-left: 50%; }
     .fal-row .fal-col-lg-7 {
       width: 58.33333%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-7 {
+      margin-left: 58.33333%; }
     .fal-row .fal-col-lg-8 {
       width: 66.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-8 {
+      margin-left: 66.66667%; }
     .fal-row .fal-col-lg-9 {
       width: 75%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-9 {
+      margin-left: 75%; }
     .fal-row .fal-col-lg-10 {
       width: 83.33333%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-10 {
+      margin-left: 83.33333%; }
     .fal-row .fal-col-lg-11 {
       width: 91.66667%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-11 {
+      margin-left: 91.66667%; }
     .fal-row .fal-col-lg-12 {
       width: 100%;
       display: block;
       overflow: auto;
       float: left; }
+    .fal-row .fal-col-lg-offset-12 {
+      margin-left: 100%; }
     .fal-row .fal-col-lg-hidden {
       display: none; } }
 

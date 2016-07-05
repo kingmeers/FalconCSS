@@ -11,6 +11,7 @@ Maybe this will be a complete failure, but it will be fun.
     * md
     * lg
     * hidden
+    * Offset
 * Buttons
     * Huge variety of colours
     * Customisable
@@ -25,5 +26,10 @@ Maybe this will be a complete failure, but it will be fun.
     * Alignment classes
     * Transformation classes
     * Box shadows
+    * Classes for:
+        * width and height
+        * margin and padding
+* Semantic AF
+    * Write class as if it were CSS
 
-### Will start documentation soon
+### Will start documentation soon (but till then please explore!)

@@ -1,9 +1,8 @@
+// All the different types of helper classes
 @import 'text';
 @import 'background';
 @import 'border-outline';
 @import 'margin';
 @import 'padding';
-
-// Floating
-$float: 'none', 'left', 'right';
-@include propertyToClass($prefix, $float, float);
+@import 'positioning';
+@import 'size';
