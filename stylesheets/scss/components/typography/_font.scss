@@ -26,6 +26,13 @@ ul, .#{$prefix}-ul {
     }
 }
 
+// 100 classes for font-size
+@for $n from 1 through 100 {
+    .#{$prefix}-font-size-#{$n} {
+        font-size: #{$n}px;
+    }
+}
+
 
 ol, .#{$prefix}-ol {
     margin-left: 40px;

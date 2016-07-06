@@ -14,3 +14,7 @@ $background-position: 'left', 'right', 'top', 'bottom', 'center',
                       'right top', 'right center', 'right bottom',
                       'center top', 'center center', 'center bottom';
 @include propertyToClass($prefix, $background-position, background-position);
+
+@mixin background($args...) {
+    background: $args;
+}

@@ -3,9 +3,9 @@ $text-align: 'center', 'left', 'right';
 @include propertyToClass($prefix, $text-align, text-align);
 
 // Text decorations
-$text-decoration: 'underline', 'overline', 'line-through';
+$text-decoration: 'underline', 'overline', 'line-through', 'none';
 @include propertyToClass($prefix, $text-decoration, text-decoration);
 
 // Text transforms
-$text-transform: 'capitalize', 'uppercase', 'lowercase';
+$text-transform: 'capitalize', 'uppercase', 'lowercase', 'none';
 @include propertyToClass($prefix, $text-transform, text-transform);

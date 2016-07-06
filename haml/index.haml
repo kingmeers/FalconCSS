@@ -73,11 +73,6 @@
 
         - @colors = ['petal','poppy','stem','springGreen','mist','stone','shadow','autumnFoliage','sky','sunset','sunflower','grass','sandstone','burntOrange','sea','lagoon','hotPink','bubblegum','pollen','brandy','avocado','yellowPepper','aquaBlue','ripeTomato','sage','honey','bluebell','raspberry','electricBlue','banana','watermelon','cantelope','freshOrange','fuschia','lemonDrop','blueRaspberry','fresh','vermillion','sunshine','clean','papaya','mustard','blush','marine']
 
-        - $checkNUM = 0
         - @colors.each do |color|
-            - $checkNUM = $checkNUM + 1
-            .fal-row
-                %div{:class=>"fal-col-xs-12"}
-                    %div{:class=>"fal-full-width fal-height-50 fal-overflow-visible fal-radius-10 fal-float-left fal-background-color-#{color}"}
-                    - if($checkNUM%4 == 0)
-                        %div{:class=>"fal-full-width fal-height-50 fal-margin-top-xxlarge fal-margin-bottom-xxlarge"}
+            %div{:class=>"fal-float-left"}
+                %button{:class=>"fal-btn-#{color}"} Button

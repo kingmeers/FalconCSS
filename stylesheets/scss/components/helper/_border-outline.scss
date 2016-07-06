@@ -1,8 +1,11 @@
 // Border and outline
 $borders: border, outline;
-@each $n in $borders {
-    .#{$prefix}-#{$n} {
-        #{$n}: 1px solid getColor(black);
+@each $property in $borders {
+    .#{$prefix}-#{$property} {
+        #{$property}: 1px solid getColor(black);
+    }
+    .#{$prefix}-#{$property}-none {
+        #{$property}: none;
     }
 }
 
@@ -16,4 +19,24 @@ $borders: border, outline;
     .#{$prefix}-radius-#{$n} {
         border-radius: $n * 1px;
     }
+}
+
+@mixin border($args...) {
+    border: $args;
+}
+
+@mixin border-top($args...) {
+    border-top: $args;
+}
+
+@mixin border-bottom($args...) {
+    border-bottom: $args;
+}
+
+@mixin border-left($args...) {
+    border-left: $args;
+}
+
+@mixin border-right($args...) {
+    border-right: $args;
 }
