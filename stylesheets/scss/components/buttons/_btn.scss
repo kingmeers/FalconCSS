@@ -7,6 +7,7 @@
         @extend .#{$prefix}-color-white;
         @extend .#{$prefix}-text-decoration-none;
         @extend .#{$prefix}-radius-4;
+        @extend .#{$prefix}-margin-medium;
         @include padding(5px 20px);
         transition: background .5s;
         cursor: pointer;

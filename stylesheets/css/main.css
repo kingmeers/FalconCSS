@@ -1424,7 +1424,7 @@ ol, .fal-ol {
 .fal-margin-small {
   margin: 10px; }
 
-.fal-margin-medium {
+.fal-margin-medium, .fal-btn-white, .fal-btn-black, .fal-btn-default, .fal-btn-petal, .fal-btn-poppy, .fal-btn-stem, .fal-btn-springGreen, .fal-btn-mist, .fal-btn-stone, .fal-btn-shadow, .fal-btn-autumnFoliage, .fal-btn-sky, .fal-btn-sunset, .fal-btn-sunflower, .fal-btn-grass, .fal-btn-sandstone, .fal-btn-burntOrange, .fal-btn-sea, .fal-btn-lagoon, .fal-btn-hotPink, .fal-btn-bubblegum, .fal-btn-pollen, .fal-btn-brandy, .fal-btn-avocado, .fal-btn-yellowPepper, .fal-btn-aquaBlue, .fal-btn-ripeTomato, .fal-btn-sage, .fal-btn-honey, .fal-btn-bluebell, .fal-btn-raspberry, .fal-btn-electricBlue, .fal-btn-banana, .fal-btn-watermelon, .fal-btn-cantelope, .fal-btn-freshOrange, .fal-btn-fuschia, .fal-btn-lemonDrop, .fal-btn-blueRaspberry, .fal-btn-fresh, .fal-btn-vermillion, .fal-btn-sunshine, .fal-btn-clean, .fal-btn-papaya, .fal-btn-mustard, .fal-btn-blush, .fal-btn-marine {
   margin: 15px; }
 
 .fal-margin-large {
